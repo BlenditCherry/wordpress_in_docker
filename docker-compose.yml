@@ -9,9 +9,10 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./wordpress:/var/www/html:delegated
   mysql:
-    image: mysql:latest
+    platform: linux/amd64
+    image: mysql:5.7
     environment:
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_DATABASE: ${MYSQL_DATABASE_NAME}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}

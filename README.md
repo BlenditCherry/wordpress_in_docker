@@ -14,4 +14,4 @@ $ docker-compose up -d
 ```
 
 ## Setting Up the Wordpress
-1. Visit http://localhost and setup website
+1. Visit http://localhost:8001 and setup website

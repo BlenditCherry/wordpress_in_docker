@@ -27,3 +27,4 @@ Before you start the exam in tasks section, please check out the instruction.
 
 ## Exam
 Please checkout this exam [link](woo_exam.md) for the list of task need to be completed.
+1. Visit http://localhost:8001 and setup website

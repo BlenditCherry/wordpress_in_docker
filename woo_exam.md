@@ -1,7 +1,14 @@
 # WooCommerce Exam
 
 ## Tasks
-1. Create custom theme for a blog post layout, also create a child theme (20 pts)
+1. Use store front as [base theme](https://woocommerce.com/products/storefront-/)(20 pts)
+  
+   1.1 Customize theme layout in product details. Move "add to cart" button beside unit price. 
+       <img width="400" alt="Screen Shot 2022-07-19 at 10 10 15 AM" src="https://user-images.githubusercontent.com/109148990/179649361-639926a1-7ae0-4f83-9336-4571f45058e8.png">
+
+  
+   1.2 also create a child theme
+  
 2. Create plugin in payment options that has title "Remittance Center" (40 pts)
    
    2.1 Implement same function with payment via cheque(offline)

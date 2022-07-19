@@ -21,8 +21,9 @@
     ```
 4. Integrate [Omniva parcell machine](https://github.com/mijora/omniva-woocommerce/tags)(30 pts)
    
+   4.1 Create Shipment & get Label function
    credentials: https://omnivacheckout.lv/en/test-environment/
-   4.1 Create Shipment & get Label function. 
+   
    ```
    size 30 cm x 50 cm x 30 cm
    weight: 1 kg
